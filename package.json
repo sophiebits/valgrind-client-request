@@ -1,0 +1,14 @@
+{
+  "name": "valgrind-client-request",
+  "version": "0.0.0",
+  "description": "Control Valgrind at runtime from Node process",
+  "main": "valgrind_client_request.js",
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node valgrind_client_request.js"
+  },
+  "gypfile": true
+}
